@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A5E1BBB0-FF5C-6F0D-DC63-811B12BBC396}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VIDEO;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Aj\AjController.cs" />
+     <Compile Include="Assets\DynamicWater\BuoyancyForce.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_BoatController.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_BoatGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_BuoyancyGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_CameraFade.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_CharacterRipples.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_DemoGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_DragRigidBody.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_GUILayout.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_GameCamera.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_HUDFPS.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_MainMenuGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_MouseSplash.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_ObstructionGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_PoolGUI.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_SetCenterOfMass.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_Swimming.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_ThirdPersonController.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_UnderwaterThirdPersonAnimation.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_WaterBumpOffset.cs" />
+     <Compile Include="Assets\DynamicWater\Demos\Assets\Scripts\DW_WaterSplash.cs" />
+     <Compile Include="Assets\DynamicWater\DynamicWater.cs" />
+     <Compile Include="Assets\DynamicWater\DynamicWaterSolverAdvancedAmbient.cs" />
+     <Compile Include="Assets\DynamicWater\DynamicWaterSolverAmbientSimple.cs" />
+     <Compile Include="Assets\DynamicWater\DynamicWaterSolverSimulation.cs" />
+     <Compile Include="Assets\DynamicWater\FluidVolume.cs" />
+     <Compile Include="Assets\DynamicWater\Internals\DynamicWaterCore.cs" />
+     <Compile Include="Assets\DynamicWater\Internals\DynamicWaterMath.cs" />
+     <Compile Include="Assets\DynamicWater\Internals\DynamicWaterMesh.cs" />
+     <Compile Include="Assets\DynamicWater\Internals\DynamicWaterSolver.cs" />
+     <Compile Include="Assets\DynamicWater\MarkObstructionAsTerrain.cs" />
+     <Compile Include="Assets\DynamicWater\SplashZone.cs" />
+     <Compile Include="Assets\DynamicWater\UnderwaterFog.cs" />
+     <Compile Include="Assets\DynamicWater\WaterDetector.cs" />
+     <Compile Include="Assets\Scripts\BallScript.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\AddDuckOnClient.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\AddItemClientController.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\AddItemServerController.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\ButtonController.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\Button_Start.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\DropABox.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\DropDownList.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\MainSceneButtonHandle\Connect.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\MainSceneButtonHandle\MainSceneButton.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\ManageItemOnServer.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\Mobile_Movement.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\MoveRandomly.cs" />
+     <Compile Include="Assets\Scripts\Buttons Handle\Test.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CameraController\MovingCamera.cs" />
+     <Compile Include="Assets\Scripts\CameraController\SwitchCamera.cs" />
+     <Compile Include="Assets\Scripts\CreateCapsule.cs" />
+     <Compile Include="Assets\Scripts\DBController\DataLoader.cs" />
+     <Compile Include="Assets\Scripts\FPSController.cs" />
+     <Compile Include="Assets\Scripts\FlashText.cs" />
+     <Compile Include="Assets\Scripts\FlashingTextScript.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\Launcher.cs" />
+     <Compile Include="Assets\Scripts\Launcher_2.cs" />
+     <Compile Include="Assets\Scripts\Login\LoginClientController.cs" />
+     <Compile Include="Assets\Scripts\Login\LoginServerController.cs" />
+     <Compile Include="Assets\Scripts\MapController\BeginMapClientController.cs" />
+     <Compile Include="Assets\Scripts\MapController\BeginMapServerController.cs" />
+     <Compile Include="Assets\Scripts\MapController\ClientChooseMap.cs" />
+     <Compile Include="Assets\Scripts\MapController\ClientMapController.cs" />
+     <Compile Include="Assets\Scripts\MapController\ClientUpdateMap.cs" />
+     <Compile Include="Assets\Scripts\MapController\ConnectServer.cs" />
+     <Compile Include="Assets\Scripts\MapController\CurrentMapState.cs" />
+     <Compile Include="Assets\Scripts\MapController\GridScript.cs" />
+     <Compile Include="Assets\Scripts\MapController\IntersectChooseMap.cs" />
+     <Compile Include="Assets\Scripts\MapController\IntersectController.cs" />
+     <Compile Include="Assets\Scripts\MapController\Minimap\MinimapOnClient.cs" />
+     <Compile Include="Assets\Scripts\MapController\Minimap\MinimapOnServer.cs" />
+     <Compile Include="Assets\Scripts\MapController\MinimapController\Blip.cs" />
+     <Compile Include="Assets\Scripts\MapController\MinimapController\Minimap.cs" />
+     <Compile Include="Assets\Scripts\MapController\MinimapController\MinimapClient\BlipClient.cs" />
+     <Compile Include="Assets\Scripts\MapController\MinimapController\MinimapClient\ControllMinimapClient.cs" />
+     <Compile Include="Assets\Scripts\MapController\MinimapController\MinimapClient\ControllMinimapServer.cs" />
+     <Compile Include="Assets\Scripts\MapController\MinimapController\MinimapClient\MinimapClient.cs" />
+     <Compile Include="Assets\Scripts\MapController\MovingCube.cs" />
+     <Compile Include="Assets\Scripts\MapController\ServerMapController.cs" />
+     <Compile Include="Assets\Scripts\MapController\ShowClientChooseMap.cs" />
+     <Compile Include="Assets\Scripts\MapController\ThrowClientController.cs" />
+     <Compile Include="Assets\Scripts\MapController\ThrowClient_RPC.cs" />
+     <Compile Include="Assets\Scripts\MapController\ThrowServerController.cs" />
+     <Compile Include="Assets\Scripts\MapController\ThrowServer_RPC.cs" />
+     <Compile Include="Assets\Scripts\MovementSync\DuckMoveClient.cs" />
+     <Compile Include="Assets\Scripts\MovementSync\MovementSyncClient.cs" />
+     <Compile Include="Assets\Scripts\MovementSync\MovementSyncServer.cs" />
+     <Compile Include="Assets\Scripts\MovementSync\SoundCollision.cs" />
+     <Compile Include="Assets\Scripts\MyNetworkManager.cs" />
+     <Compile Include="Assets\Scripts\RPC\AppRoot_Scene1.cs" />
+     <Compile Include="Assets\Scripts\RPC\AppRoot_Scene2.cs" />
+     <Compile Include="Assets\Scripts\RPC\AppRoot_Scene3.cs" />
+     <Compile Include="Assets\Scripts\RPC\BallController.cs" />
+     <Compile Include="Assets\Scripts\RPC\Constants.cs" />
+     <Compile Include="Assets\Scripts\RPC\RPC_Launcher.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\ScoreController\ScoreController.cs" />
+     <Compile Include="Assets\Scripts\Skipping.cs" />
+     <Compile Include="Assets\Scripts\SoundController.cs" />
+     <Compile Include="Assets\Scripts\TestRPC\Client.cs" />
+     <Compile Include="Assets\Scripts\TestRPC\Server.cs" />
+     <Compile Include="Assets\Scripts\TestScript\Boundary.cs" />
+     <Compile Include="Assets\Scripts\TestScript\ChangeSize.cs" />
+     <Compile Include="Assets\Scripts\TestScript\Contain.cs" />
+     <Compile Include="Assets\Scripts\TestScript\Example.cs" />
+     <Compile Include="Assets\Scripts\TestScript\Magnitude.cs" />
+     <Compile Include="Assets\Scripts\TestScript\Scale.cs" />
+     <Compile Include="Assets\Scripts\Throw.cs" />
+     <Compile Include="Assets\Scripts\User\ScoreClient.cs" />
+     <Compile Include="Assets\Scripts\User\ScoreServerController.cs" />
+     <Compile Include="Assets\Scripts\User\UserClientController.cs" />
+     <Compile Include="Assets\Scripts\User\UserServerController.cs" />
+     <None Include="Assets\Shaders\SimpleGrabPassBlur.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterBumped_Fresnel.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimpleObstructionAlpha.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimpleAdditive.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterReflectiveSimpleTwoSided.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\DepthMask.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\Mobile-Particle-Add (Cull On).shader" />
+     <None Include="Assets\DynamicWater_ReadMe.txt" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterSimple.shader" />
+     <None Include="Assets\DynamicWater\Demos\Assets\Shaders\WaterReflectiveSimple.shader" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="DynamicWaterNativeWrapper">
+ <HintPath>/Users/maitrungduc/Documents/BK/Files/Unity Projects/Skipping Stones/Assets/Plugins/DynamicWaterNativeWrapper.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
